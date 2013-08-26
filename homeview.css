@@ -1,0 +1,158 @@
+
+
+div#homeform{
+	height:640px;
+	/*background:url('bike.png') ;*/
+	width: 100%;
+	padding-top:10px;
+}
+
+
+div#info{
+	margin:0px auto;
+	margin-top:60px;
+	text-align: center; 
+	color: #000;
+	font-weight: 600px;
+	padding-top:210px;
+	padding-left:50px;
+	
+	padding-bottom:15px;
+	/*background-color: #000;*/
+	opacity: 0.8;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+	width:450px;
+}
+
+div#info section{
+	font-family: Garamond;
+	font-size: 42px;
+	padding-top: 10px;
+}
+
+div#theform{
+	margin-top:70px;
+	height:140px;
+	width:852px;
+	padding-right: 20px;
+	margin-left:63px;
+}
+
+
+div#featured{
+	height:51px;
+	margin:0px auto;
+	width:517px;
+	margin-bottom:50px;
+	margin-top:50px;
+	border:1px solid #e0e0e0; 
+	padding:30px 10px 5px 0px;
+	border-radius:6px;
+	color:#827d77;
+}
+
+
+div#featured img{
+	cursor:pointer;
+	margin-left:20px;
+}
+
+div#trokxi-features{
+	text-align:center;
+	padding-top:60px;
+	padding-bottom:50px;
+	font-weight: 500;
+	font-family: Georgia;
+	width:800px;
+	margin:0px auto;
+}
+
+div.features-info{
+	height:100px;
+	margin-bottom:50px;
+}
+
+
+span.right-span,span.left-span{
+	text-align: left;
+	width:300px;	
+}
+
+span.left-span{
+	margin-right: 100px;
+	margin-left: 40px;
+}
+
+
+h3 img{
+	margin-right:20px;
+}
+
+span h3{
+	color:#333;
+}
+
+span p{
+	font-size:20px;
+}
+
+p#announce{
+	font-size:17px;
+	width:inherit;
+	text-align: center;
+}
+
+p{
+	color:#827d77;
+}
+
+button#ad-button{
+	position:absolute;
+	margin-top:260px;
+	margin-left:580px;
+}
+
+div#short-ad{
+	text-align: center;
+	margin-top:50px;
+	margin-bottom: 30px;
+}
+
+
+section#short-info1{
+	font-family:Georgia;
+	font-size: 23px;
+	margin-bottom: 20px; 
+	text-transform: uppercase;
+}
+
+span#short-info2{
+	font-family:Times;
+	font-size: 23px;
+	margin-bottom: 20px;
+	margin-right: 10px;
+}
+
+div#info h3{
+	margin-top: 15px;
+	color:#F4A62A;
+	font-weight:1000px;
+	font-family: Georgia;
+	font-size:18px;
+}
+
+span h3 img{
+	width:64px;
+	height:64px;
+}
+
+div.features-awards{
+	height:155px;
+	margin: 0px auto;
+	width:700px;
+	font-family: Georgia;
+	padding-top: 15px;
+	padding-bottom: 35px;
+}
