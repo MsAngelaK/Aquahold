@@ -3,10 +3,10 @@
 	<head>
 		<title>Aquahold</title>
 		
-		
+
 		<link type="text/css" rel="stylesheet" href="bootstrap.min.css" />
 		<link type="text/css" rel="stylesheet" href="landing.css" />
-		<link type="text/css" rel="stylesheet" href="homeview.css" /> 
+		<link type="text/css" rel="stylesheet" href="homeview.css" />
 	</head>
 	
 	<body>
@@ -44,7 +44,37 @@
 				
 		         <img src="bike5.png" >
 		</div>
-		<button class="btn btn-large btn-info" type="button" style="margin-top: -460px;margin-left: 250px;">Order now!</button>
+
+		<a href="#myModal" role="button" class="btn" data-toggle="modal">Click here for your free bottle!</a>
 		
+
+		<!-- Modal -->
+		<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  		<div class="modal-header">
+    		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    		<h3 id="myModalLabel">Your info here</h3>
+  		</div>
+  		<div class="modal-body">
+    		<form class="form-horizontal">
+  				<div class="control-group">
+    				<label class="control-label" for="inputEmail">Email</label>
+    				<div class="controls">
+      					<input type="text" id="inputEmail" placeholder="Email">
+   					</div>
+   				</div>
+  				<div class="control-group">
+    				<label class="control-label" for="inputName">Name</label>
+    				<div class="controls">
+      					<input type="text" id="inputName" placeholder="Name">
+    				</div>
+  				</div>
+  		</div>
+  		<div class="modal-footer">
+    		<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+    		<button class="btn btn-primary" >Submit</button>
+  		</div>
+		</div>
+		<script type="text/javascript" src="http://code.jquery.com/jquery.js"></script>
+		<script type="text/javascript" src="bootstrap.min.js"></script> 
 	</body>
 </html>
