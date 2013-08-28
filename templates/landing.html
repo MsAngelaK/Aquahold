@@ -2,7 +2,10 @@
 <html lang="en">
 	<head>
 		<title>Aquahold</title>
-		
+
+		<script type="text/javascript" src="http://code.jquery.com/jquery.js"></script>
+		<script type="text/javascript" src="../js/osbornscript.js"></script>
+
 		<!--link href='http://fonts.googleapis.com/css?family=Esteban' rel='stylesheet' type='text/css'-->
 		<link href='http://fonts.googleapis.com/css?family=Ledger' rel='stylesheet' type='text/css'>
 		<link type="text/css" rel="stylesheet" href="../css/bootstrap.min.css" />
@@ -59,27 +62,33 @@
     		<h3 id="myModalLabel">Your info here</h3>
   		</div>
   		<div class="modal-body">
-    		<form class="form-horizontal">
+  			<div class="modal-wrapper">
+    		<form class="form-horizontal" name="myForm" onsubmit="return validateForm()">
     			<div class="control-group">
-    				<label class="control-label" for="inputName">Name</label>
+    				<label class="control-label" name="inputName">Name</label>
     				<div class="controls">
-      					<input class="input-large"  type="text" id="inputName" placeholder="First Name">
+      					<input class="input-large"  type="text" id="inputName" placeholder="Name">
     				</div>
   				</div>
   				<div class="control-group">
     				<label class="control-label" for="inputEmail">Email</label>
     				<div class="controls">
-      					<input class="input-large" type="text" id="inputEmail" placeholder="Email Address">
+      					<input class="input-large" type="email" id="inputEmail" placeholder="Email Address">
    					</div>
    				</div>
+   				<div class="control-group">
+    				<div class="controls">
+      					<button type="submit" class="btn" value="Submit" id="submit-btn">Submit</button>
+    				</div>
+  				</div>
 			</form>
   		</div>
+  	</div>
   		<div class="modal-footer">
     		<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-    		<button class="btn btn-info" >Submit</button>
   		</div>
 		</div>
-		
+
 		<div id="div-color">
 			<nav id="div-nav">
 				<ul class="nav nav-pills" id="partner-color">
@@ -97,9 +106,6 @@
 	            </ul>
 			</nav>
 		</div>
-	</body>
-
-
-		<script type="text/javascript" src="http://code.jquery.com/jquery.js"></script>
+	</body>	
 		<script type="text/javascript" src="../js/bootstrap.min.js"></script>
 </html>
