@@ -18,8 +18,8 @@ handlers:
 - url: /img
   static_dir: img
 
-- url: /.*
-  script: helloworld.app
+- url: .*
+  script: main.app
   
 libraries:
 - name: webapp2
