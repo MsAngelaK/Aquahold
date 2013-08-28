@@ -12,6 +12,12 @@ body,html,header{
 }
 
 
+
+li.no-link-text{
+	margin-top: 9px;
+	cursor: auto;
+}
+
 header#header,div#div-color{
 	margin: 0px auto;
 }
@@ -57,7 +63,7 @@ span a#logo{
 	outline: none;
 	text-decoration:none;
 	cursor: pointer;
-	margin-left: 205px;
+	margin-left: 215px;
 	width:17%;
 }
 
