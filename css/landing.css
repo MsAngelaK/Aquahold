@@ -103,7 +103,7 @@ ul#social-color li a:hover{
 div#bike-pic{
 	height: 80%;
 	width: 100%;
-	background: url("bike.png") no-repeat;
+	background: url("../img/bike.png") no-repeat;
 	margin-bottom: 7px;
 }
 
