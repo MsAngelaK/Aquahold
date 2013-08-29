@@ -6,7 +6,7 @@ $(function(){
 function validateForm(evt) {
 	var x=document.forms["myForm"]["inputName"].value;
 	if (x==null || x=="") {
-		alert("Name must be filled out");
+		alert("Name and Email must be filled out");
 		evt.preventDefault();
 		return;
 	}
