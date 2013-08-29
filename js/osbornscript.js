@@ -15,6 +15,7 @@ function validateForm(evt) {
 	
 	function sayThanks (evt){
 	var name = document.getElementById('inputName').value;
-	var thanks = $('<p>Thanks for your response ' +name+'. We\'ll be in touch</p>');
+	//alert("Thanks for your response ' +name+'. We'll be in touch")
+	var thanks = $('<p style="text-align:center;">Thanks for your response ' +name+'. We\'ll be in touch</p>');
 	$('.modal-wrapper').replaceWith(thanks);
 }		
